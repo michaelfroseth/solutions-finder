@@ -1,0 +1,34 @@
+.aurora .toolbar a.icon-only {
+  min-height: var(--f7-toolbar-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.aurora .tabbar .toolbar-inner,
+.aurora .tabbar-labels .toolbar-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+.aurora .tabbar a.tab-link,
+.aurora .tabbar-labels a.tab-link,
+.aurora .tabbar a.link,
+.aurora .tabbar-labels a.link {
+  transition-duration: 200ms;
+}
+.aurora .tabbar-labels a.tab-link,
+.aurora .tabbar-labels a.link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.aurora .tabbar-labels a.tab-link i + span,
+.aurora .tabbar-labels a.link i + span {
+  margin: 0;
+}
+.aurora .tabbar-scrollable .toolbar-inner {
+  justify-content: flex-start;
+}
+.aurora .tabbar-scrollable a.tab-link,
+.aurora .tabbar-scrollable a.link {
+  padding: 0 15px;
+}
